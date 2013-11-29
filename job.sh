@@ -12,7 +12,7 @@ git pull -s resolve
 if ! [ -z "${HUDSON_BRANCH}" ]; then
   git checkout "${HUDSON_BRANCH}"
 else
-  git checkout master
+  git checkout cm-11.0
 fi
 
 git pull
