@@ -28,7 +28,6 @@ apply_patches_cm-11.0() {
 
   python3 ${WORKSPACE}/hudson/gerrit_changes.py \
     `# frameworks/base` \
-    'http://review.cyanogenmod.org/#/c/53358/' `# Framework : Lockscreen - Customizable shortcuts`                                        \
     'http://review.cyanogenmod.org/#/c/53468/' `# Reimplement expanded desktop on top of immersive mode.`                                 \
     'http://review.cyanogenmod.org/#/c/53502/' `# SystemUI: fix RecentPanel position in landscape mode.`                                  \
     'http://review.cyanogenmod.org/#/c/53827/' `# framework/base: Add EdgeGesture service.`                                               \
@@ -38,7 +37,6 @@ apply_patches_cm-11.0() {
     'http://review.cyanogenmod.org/#/c/54787/' `# Keyguard: fix statusbar lags when default widget shown.`                                \
 
     `# packages/apps/Settings` \
-    'http://review.cyanogenmod.org/#/c/54067/' `# Settings : Port lockscreen shortcut configuration`                                      \
     'http://review.cyanogenmod.org/#/c/54139/' `# Forward Port Circle Battery (WIP)`                                                      \
     'http://review.cyanogenmod.org/#/c/54219/' `# Add back hardware key settings.`                                                        \
     'http://review.cyanogenmod.org/#/c/54326/' `# Add back navigation ring customization.`                                                \
