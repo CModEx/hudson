@@ -10,7 +10,7 @@ reset_dirs_cm-11.0() {
   for i in ${RESET_DIRS[@]} ${RESET_DIRS_OLD[@]}; do
     if [ -d "${i}" ]; then
       if [ -d "${i}/.git/refs/remotes/github" ]; then
-        reset_git_state ${i} cxl/${REPO_BRANCH}
+        reset_git_state ${i} CModEx/${REPO_BRANCH}
       else
         reset_git_state ${i} github/${REPO_BRANCH}
       fi
