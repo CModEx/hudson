@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- CModEx -->
-
- <project name="CModEx/android_build"
-	   path="build"
-           remote="github" />
-
+ <!-- CModEx 
 
   <project name="CModEx/android_device_lge_mako"
 	   path="device/lge/mako"
@@ -27,6 +22,6 @@
   <project name="CModEx/mako"
  	   path="kernel/lge/mako"
            remote="github"
- 	   revision="nightlies-4.4" />
+ 	   revision="nightlies-4.4" /> -->
 
 </manifest>
